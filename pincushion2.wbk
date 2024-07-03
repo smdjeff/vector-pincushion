@@ -1,0 +1,83 @@
+{
+  "last_sch_text_sim_command": "",
+  "tabs": [
+    {
+      "analysis": "DC",
+      "commands": [
+        ".dc V3 0 4 100m",
+        ".kicad adjustpaths",
+        ".save all"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(152, 78, 163)",
+          "cursor1": {
+            "position": 0.0053050397877983406,
+            "x_format": "3~V",
+            "y_format": "3~V"
+          },
+          "cursor2": {
+            "position": 3.994694960212203,
+            "x_format": "3~V",
+            "y_format": "3~V"
+          },
+          "cursorD": {
+            "x_format": "3~V",
+            "y_format": "3~V"
+          },
+          "signal": "V(/amplifiers/R_OUT)",
+          "trace_type": 2049
+        }
+      ]
+    },
+    {
+      "analysis": "DC",
+      "commands": [
+        ".dc V3 -4 4 100m",
+        ".kicad adjustpaths",
+        ".save all"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(152, 78, 163)",
+          "signal": "V(/simulation/X_IN)",
+          "trace_type": 2049
+        },
+        {
+          "color": "rgb(55, 126, 184)",
+          "cursor1": {
+            "position": 3.9670781893004152,
+            "x_format": "3~V",
+            "y_format": "3~V"
+          },
+          "cursorD": {
+            "x_format": "3~V",
+            "y_format": "3~V"
+          },
+          "signal": "V(/simulation/X_OUT)",
+          "trace_type": 2049
+        }
+      ]
+    }
+  ],
+  "user_defined_signals": [],
+  "version": 6
+}

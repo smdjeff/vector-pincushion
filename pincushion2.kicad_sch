@@ -1,0 +1,165 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ccee1985-eeba-4cda-9190-f5323ae79654")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 54.61 137.16)
+		(size 30.48 33.655)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "27f55845-fff7-4302-a59f-1021602aa815")
+		(property "Sheetname" "simulation"
+			(at 54.61 136.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "simulation.kicad_sch"
+			(at 54.61 171.3996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pincushion2"
+				(path "/ccee1985-eeba-4cda-9190-f5323ae79654"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 61.595)
+		(size 32.385 41.91)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5632c7a9-3328-40e5-a3e0-e0abe13fde49")
+		(property "Sheetname" "amps-y"
+			(at 104.14 60.8834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "amps-y.kicad_sch"
+			(at 104.14 104.0896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pincushion2"
+				(path "/ccee1985-eeba-4cda-9190-f5323ae79654"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.975 59.69)
+		(size 33.655 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7083b559-78e5-4602-9c81-54905dbbac60")
+		(property "Sheetname" "amps-x"
+			(at 53.975 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "amps-x.kicad_sch"
+			(at 53.975 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pincushion2"
+				(path "/ccee1985-eeba-4cda-9190-f5323ae79654"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 60.96)
+		(size 35.56 43.18)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e6257b44-8f2b-4cd3-874f-29a0ac312301")
+		(property "Sheetname" "power"
+			(at 157.48 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 157.48 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pincushion2"
+				(path "/ccee1985-eeba-4cda-9190-f5323ae79654"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

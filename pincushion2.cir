@@ -1,0 +1,40 @@
+.title KiCad schematic
+RV3 Net-_R2-Pad2_ Net-_R2-Pad2_ /amplifiers/X_OUT 50k
+U2 /amplifiers/X_OUT Net-_R2-Pad2_ GND -12V GND Net-_R10-Pad2_ /amplifiers/Y_OUT +12V TL082
+RV4 -5V -5V Net-_R10-Pad1_ 10k
+R9 /amplifiers/Y_IN GND 75
+R10 Net-_R10-Pad1_ Net-_R10-Pad2_ 20k
+J1 GND /amplifiers/X_IN /amplifiers/Y_IN GND /amplifiers/R_IN /amplifiers/G_IN /amplifiers/B_IN Conn_01x07_Male
+RV6 Net-_R10-Pad2_ Net-_R10-Pad2_ /amplifiers/Y_OUT 50k
+C5 +12V GND .1uF
+C6 +12V GND .01uF
+J3 +12V GND -12V Conn_01x03_Male
+J2 /amplifiers/X_OUT /amplifiers/Y_OUT /amplifiers/R_OUT /amplifiers/G_OUT /amplifiers/B_OUT Conn_01x05_Male
+RV1 -5V -5V Net-_R5-Pad1_ 10k
+R7 /amplifiers/Y_IN Net-_R10-Pad2_ 2k
+R5 Net-_R5-Pad1_ Net-_R2-Pad2_ 20k
+R2 /amplifiers/X_IN Net-_R2-Pad2_ 2k
+R4 /amplifiers/X_IN GND 75
+C4 GND -12V .01uF
+C2 +12V GND .01uF
+C1 +12V GND .1uF
+U1 /amplifiers/R_OUT Net-_R3-Pad2_ /amplifiers/R_IN -12V /amplifiers/G_IN Net-_R8-Pad2_ /amplifiers/G_OUT +12V TL082
+C3 GND -12V .1uF
+V1 /amplifiers/X_IN GND VSOURCE
+C10 +12V GND .01uF
+C11 GND -12V .1uF
+C9 +12V GND .1uF
+C7 GND -12V .1uF
+C8 GND -12V .01uF
+U3 /amplifiers/B_OUT Net-_R12-Pad2_ /amplifiers/B_IN -12V GND Net-_U3-Pad6_ Net-_U3-Pad6_ +12V TL082
+R8 GND Net-_R8-Pad2_ 10k
+RV5 Net-_R8-Pad2_ Net-_R8-Pad2_ /amplifiers/G_OUT 33k
+R12 GND Net-_R12-Pad2_ 10k
+R11 /amplifiers/B_IN GND 75
+R3 GND Net-_R3-Pad2_ 10k
+R1 /amplifiers/R_IN GND 75
+R6 /amplifiers/G_IN GND 75
+RV2 Net-_R3-Pad2_ Net-_R3-Pad2_ /amplifiers/R_OUT 33k
+C12 GND -12V .01uF
+RV7 Net-_R12-Pad2_ Net-_R12-Pad2_ /amplifiers/B_OUT 33k
+.end
