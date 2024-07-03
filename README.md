@@ -25,3 +25,7 @@ applies the function _X = X * k * Y_ and _Y = Y * k * X_ allowing for each axis 
 * All new design around the AD633 analog multipler typically used in very high end audio equipment.
 * Supports 2x faster speed than orignal when used with TI-H 5.25MHz bandwidth amplifiers.
   
+
+![alt text](docs/barrel.jpg "Barrel and Pincushion")
+![alt text](docs/atari.jpg "Atari Math")
+![alt text](docs/render.jpg "Board Render")
